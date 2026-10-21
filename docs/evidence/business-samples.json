@@ -1,0 +1,2749 @@
+{
+  "purpose": "Synthetic acceptance examples; review-required drafts, not actual transactions.",
+  "runs": [
+    {
+      "exportType": "review-required-draft",
+      "run": {
+        "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+        "version": 3,
+        "createdAt": "2026-10-21T04:49:23.811Z",
+        "updatedAt": "2026-10-21T04:49:31.703Z",
+        "input": {
+          "workflow": "rfq",
+          "market": "DE",
+          "mode": "live",
+          "productId": "HF-BOX-01",
+          "prompt": "请在上一版补充样品和后续跟进，不承诺具体寄出日期。",
+          "quantity": 500,
+          "unitPriceCents": 320,
+          "validDays": 14,
+          "leadDays": 25,
+          "currency": "USD",
+          "incoterm": "FOB",
+          "place": "Ningbo",
+          "payment": "30% deposit, 70% before shipment; subject to confirmation",
+          "sourceRunId": null
+        },
+        "product": {
+          "id": "HF-BOX-01",
+          "name": "叠放式桌面收纳盒",
+          "brand": "Harbor Home",
+          "category": "家居收纳",
+          "nameEn": "Stackable Storage Box",
+          "nameDe": "Stapelbare Aufbewahrungsbox",
+          "materialEn": "PP plastic",
+          "materialDe": "PP-Kunststoff",
+          "sizeCm": [
+            30,
+            20,
+            15
+          ],
+          "featuresEn": [
+            "Stackable design for shelf organization",
+            "Lid included",
+            "For dry household items"
+          ],
+          "featuresDe": [
+            "Stapelbares Design für ein geordnetes Regal",
+            "Mit Deckel",
+            "Für trockene Haushaltsgegenstände"
+          ],
+          "moq": 300,
+          "unitPriceCents": 320,
+          "leadDays": 25,
+          "currency": "USD",
+          "manufacturer": "",
+          "manufacturerContact": "",
+          "euResponsiblePerson": "",
+          "safetyInfoDe": "",
+          "evidence": [],
+          "synthetic": true
+        },
+        "output": {
+          "content": {
+            "en": {
+              "title": "Stackable Storage Box – 500-Unit RFQ Reply",
+              "highlights": "PP plastic, stackable, lid included, for dry household items",
+              "body": "Dear Sir or Madam,\n\nThank you for your interest in our Stackable Storage Box (Harbor Home, PP plastic, 30 × 20 × 15 cm). We are pleased to respond to your request for 500 units on FOB Ningbo terms; the quotation valid for 14 days is shown separately.\n\nPayment is proposed as 30% deposit and 70% before shipment, subject to confirmation. Production begins only after the deposit is received and the sample is approved. The indicated lead time is an estimate; we will check sample stock, capacity and ship dates and confirm rather than assume availability. We cannot commit to a dispatch date for samples at this stage.\n\nPlease confirm your desired quantity, whether you need a sample, and your packaging preferences. We will follow up with the sample status and next steps after your reply.\n\nKind regards,\nSales Team",
+              "bullets": [
+                "Confirm 500 units and intended use",
+                "Confirm whether a sample is required",
+                "Check sample stock and availability before commitment",
+                "Share packaging and delivery preferences",
+                "Approve sample before production begins"
+              ]
+            },
+            "de": {
+              "title": "Stapelbare Aufbewahrungsbox – Antwort auf Anfrage über 500 Stück",
+              "highlights": "PP-Kunststoff, stapelbar, mit Deckel, für trockene Haushaltsgegenstände",
+              "body": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihr Interesse an unserer stapelbaren Aufbewahrungsbox (Harbor Home, PP-Kunststoff, 30 × 20 × 15 cm). Gerne antworten wir auf Ihre Anfrage über 500 Stück zu FOB Ningbo; das Angebot mit 14 Tagen Gültigkeit wird separat ausgewiesen.\n\nAls Zahlungsbedingungen schlagen wir 30 % Anzahlung und 70 % vor Versand vor; die endgültigen Bedingungen bleiben vorbehalten. Die Produktion beginnt erst nach Eingang der Anzahlung und Freigabe des Musters. Die angegebene Lieferzeit ist eine Schätzung; wir prüfen Musterbestand, Kapazität und Versandtermine und bestätigen dies, statt eine Verfügbarkeit anzunehmen. Ein konkretes Versanddatum für Muster können wir derzeit nicht zusagen.\n\nBitte bestätigen Sie die gewünschte Menge, ob Sie ein Muster benötigen, sowie Ihre Verpackungswünsche. Nach Ihrer Rückmeldung informieren wir Sie zum Musterstatus und zu den nächsten Schritten.\n\nMit freundlichen Grüßen,\nVertriebsteam",
+              "bullets": [
+                "Menge von 500 Stück und Verwendungszweck bestätigen",
+                "Bedarf an einem Muster klären",
+                "Musterbestand und Verfügbarkeit vor Zusage prüfen",
+                "Verpackungs- und Lieferwünsche mitteilen",
+                "Musterfreigabe vor Produktionsbeginn einholen"
+              ]
+            }
+          },
+          "summary": "基于上一版补充样品安排与后续跟进，并按要求不承诺具体寄出日期。报价条件（500件、FOB宁波、14天有效期、25天交期、付款条件）按结构化字段保留，金额由系统单独呈现。样品库存、产能与船期均未核实，仅表示将核查确认。",
+          "missingInfo": [
+            "样品库存与实际可寄出时间未核实",
+            "产能与确切船期未核实",
+            "付款条件仍待双方确认",
+            "包装与交付偏好尚未获得买方确认",
+            "产品制造商信息、欧盟责任人及安全警示信息缺失（GPSR相关字段不完整）"
+          ],
+          "nextActions": [
+            "向买方确认500件数量、用途及是否需要样品",
+            "内部核查样品库存、产能与预计船期后再回复买方",
+            "收集包装与交付偏好",
+            "收到样品需求后安排寄样评估并跟进",
+            "生产前取得订金并完成样品批准"
+          ]
+        },
+        "quote": {
+          "quantity": 500,
+          "unitPriceCents": 320,
+          "totalCents": 160000,
+          "currency": "USD",
+          "incoterm": "FOB",
+          "place": "Ningbo",
+          "validDays": 14,
+          "expiresAt": "2026-11-04",
+          "leadDays": 25,
+          "payment": "30% deposit, 70% before shipment; subject to confirmation",
+          "excludes": "Freight, insurance, duties and taxes excluded. Production lead time starts after deposit and sample approval. Subject to written confirmation."
+        },
+        "knowledge": [
+          {
+            "id": "gpsr-19",
+            "category": "compliance",
+            "title": "欧盟 GPSR 远程销售信息初筛",
+            "markets": [
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "listing",
+              "compliance"
+            ],
+            "kind": "regulation",
+            "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+            "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "effectiveAt": "2024-12-13",
+            "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+            "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+            "matchReason": "DE / rfq"
+          },
+          {
+            "id": "rfq-response",
+            "category": "platform",
+            "title": "Alibaba RFQ 回复场景",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq"
+            ],
+            "kind": "platform-guidance",
+            "source": "https://seller.alibaba.com/rfq?locale=en",
+            "publisher": "Alibaba.com Seller Central",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "围绕买方明确的规格、数量和时间提供清晰报价；先确认能够满足需求，再推进沟通。本文仅基于公开 RFQ 场景指引，不覆盖账户内所有发布规则。",
+            "matchReason": "DE / rfq"
+          },
+          {
+            "id": "commercial-terms",
+            "category": "contract",
+            "title": "商家报价内控清单",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 演示商家内控政策",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+            "matchReason": "DE / rfq"
+          },
+          {
+            "id": "localization",
+            "category": "culture",
+            "title": "英德商务表达与事实边界",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "editorial-policy",
+            "source": null,
+            "publisher": "HarborFlow 编辑规范",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+            "matchReason": "DE / rfq"
+          },
+          {
+            "id": "claim-evidence",
+            "category": "compliance",
+            "title": "认证与产品用途证据门槛",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 产品事实守则",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+            "matchReason": "DE / rfq"
+          }
+        ],
+        "validation": {
+          "status": "review-required",
+          "risks": [
+            {
+              "id": "gpsr-missing",
+              "severity": "high",
+              "category": "compliance",
+              "field": "product",
+              "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+              "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+              "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+              "ruleId": "gpsr-19"
+            },
+            {
+              "id": "quote-terms",
+              "severity": "info",
+              "category": "contract",
+              "field": "quote",
+              "excerpt": "",
+              "message": "报价仅含商品金额，运费、保险、税费另计",
+              "action": "确认指定地点、付款、样品与交期前提后再发送",
+              "ruleId": "commercial-terms"
+            },
+            {
+              "id": "evidence-missing",
+              "severity": "medium",
+              "category": "compliance",
+              "field": "product.evidence",
+              "excerpt": "",
+              "message": "商品台账未附核验材料",
+              "action": "添加来源资料；当前文本仅能作为草稿",
+              "ruleId": "claim-evidence"
+            }
+          ],
+          "counts": {
+            "high": 1,
+            "medium": 1,
+            "info": 1
+          },
+          "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+        },
+        "trace": {
+          "mode": "live",
+          "provider": "api.deepseek.com",
+          "model": "deepseek-flash",
+          "responseId": "eaa6c888-5e63-4889-99ab-a9b1aff4b9cc",
+          "responseIds": [
+            "eaa6c888-5e63-4889-99ab-a9b1aff4b9cc"
+          ],
+          "attempts": 1,
+          "repairReasons": [],
+          "usage": {
+            "promptTokens": 2411,
+            "completionTokens": 863,
+            "totalTokens": 3274
+          },
+          "durationMs": 3955,
+          "knowledgeVersion": "2026-10-21",
+          "stages": [
+            "理解与输入校验",
+            "商品事实与知识检索",
+            "双语生成",
+            "独立规则检查",
+            "版本持久化"
+          ],
+          "humanReviewRequired": true
+        }
+      },
+      "history": [
+        {
+          "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+          "version": 1,
+          "createdAt": "2026-10-21T04:49:23.811Z",
+          "updatedAt": "2026-10-21T04:49:23.811Z",
+          "input": {
+            "workflow": "rfq",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "德国买家采购500件收纳盒，请提供正式但友好的回复，并确认样品需求。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": null
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Stackable Storage Box – Quote for 500 Units",
+                "highlights": "PP plastic, stackable design, lid included, for dry household items",
+                "body": "Dear Sir or Madam,\n\nThank you for your interest in our Stackable Storage Box (Harbor Home, PP plastic, 30 × 20 × 15 cm). We are pleased to prepare a formal quotation for 500 units on FOB Ningbo terms, valid for 14 days, with an indicated lead time of 25 days.\n\nPayment is proposed at 30% deposit and 70% before shipment; final terms are subject to confirmation. Production would begin only after the deposit is received and the sample is approved.\n\nTo proceed, please confirm your desired quantity and whether you require a sample. Sample stock and availability still need to be checked; we will confirm the situation promptly rather than assume supply. Please also let us know your packaging and delivery preferences so we can align the details.\n\nWe look forward to your reply.\n\nKind regards,\nSales Team",
+                "bullets": [
+                  "Confirm quantity of 500 units and intended use",
+                  "Confirm whether a sample is required",
+                  "Check sample stock and availability before commitment",
+                  "Review packaging and delivery preferences",
+                  "Approve sample before production begins"
+                ]
+              },
+              "de": {
+                "title": "Stapelbare Aufbewahrungsbox – Angebot für 500 Stück",
+                "highlights": "PP-Kunststoff, stapelbares Design, mit Deckel, für trockene Haushaltsgegenstände",
+                "body": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihr Interesse an unserer stapelbaren Aufbewahrungsbox (Harbor Home, PP-Kunststoff, 30 × 20 × 15 cm). Gerne erstellen wir Ihnen ein formelles Angebot über 500 Stück zu FOB Ningbo, gültig für 14 Tage, mit einer angegebenen Lieferzeit von 25 Tagen.\n\nAls Zahlungsbedingungen schlagen wir 30 % Anzahlung und 70 % vor Versand vor; die endgültigen Bedingungen bleiben vorbehalten. Die Produktion beginnt erst nach Eingang der Anzahlung und Freigabe des Musters.\n\nBitte bestätigen Sie uns die gewünschte Menge und ob Sie ein Muster benötigen. Musterbestand und Verfügbarkeit müssen noch geprüft werden; wir bestätigen den Stand zeitnah und gehen nicht von einer gesicherten Verfügbarkeit aus. Teilen Sie uns zudem Ihre Wünsche zu Verpackung und Lieferung mit, damit wir die Details abstimmen können.\n\nWir freuen uns auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen,\nVertriebsteam",
+                "bullets": [
+                  "Menge von 500 Stück und Verwendungszweck bestätigen",
+                  "Bedarf an einem Muster klären",
+                  "Musterbestand und Verfügbarkeit vor Zusage prüfen",
+                  "Verpackungs- und Lieferwünsche abstimmen",
+                  "Musterfreigabe vor Produktionsbeginn einholen"
+                ]
+              }
+            },
+            "summary": "德国买家就500件叠放式桌面收纳盒询价，需正式友好的英文及德文回复，并确认样品需求。报价关键条件：FOB宁波、单价320美分、14天有效期、25天交期，付款为30%定金加70%发货前付清（以确认为准）。产品信息为合成样例，无法确认制造商、欧盟责任人及安全信息，无法核验样品库存、产能与船期；正文未写入金额，报价另行呈现。",
+            "missingInfo": [
+              "买家公司名称与联系人（当前仅用通用称呼）",
+              "样品具体需求与收货信息",
+              "包装及交付偏好",
+              "制造商与欧盟责任人信息",
+              "产品安全警示与合规文件",
+              "样品库存、产能与船期的实际核验结果"
+            ],
+            "nextActions": [
+              "向买家发送正式回复并询问样品需求",
+              "内部核查样品库存与产能后再承诺交期",
+              "在系统中按结构化商业字段生成正式报价单",
+              "补充制造商与欧盟责任人等合规字段",
+              "收到样品确认后推进付款与生产安排"
+            ]
+          },
+          "quote": {
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "totalCents": 160000,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "validDays": 14,
+            "expiresAt": "2026-11-04",
+            "leadDays": 25,
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "excludes": "Freight, insurance, duties and taxes excluded. Production lead time starts after deposit and sample approval. Subject to written confirmation."
+          },
+          "knowledge": [
+            {
+              "id": "gpsr-19",
+              "category": "compliance",
+              "title": "欧盟 GPSR 远程销售信息初筛",
+              "markets": [
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "listing",
+                "compliance"
+              ],
+              "kind": "regulation",
+              "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+              "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2024-12-13",
+              "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+              "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "rfq-response",
+              "category": "platform",
+              "title": "Alibaba RFQ 回复场景",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq"
+              ],
+              "kind": "platform-guidance",
+              "source": "https://seller.alibaba.com/rfq?locale=en",
+              "publisher": "Alibaba.com Seller Central",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "围绕买方明确的规格、数量和时间提供清晰报价；先确认能够满足需求，再推进沟通。本文仅基于公开 RFQ 场景指引，不覆盖账户内所有发布规则。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "commercial-terms",
+              "category": "contract",
+              "title": "商家报价内控清单",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 演示商家内控政策",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / rfq"
+            }
+          ],
+          "validation": {
+            "status": "review-required",
+            "risks": [
+              {
+                "id": "gpsr-missing",
+                "severity": "high",
+                "category": "compliance",
+                "field": "product",
+                "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+                "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+                "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+                "ruleId": "gpsr-19"
+              },
+              {
+                "id": "quote-terms",
+                "severity": "info",
+                "category": "contract",
+                "field": "quote",
+                "excerpt": "",
+                "message": "报价仅含商品金额，运费、保险、税费另计",
+                "action": "确认指定地点、付款、样品与交期前提后再发送",
+                "ruleId": "commercial-terms"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 1,
+              "medium": 1,
+              "info": 1
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "ee745a23-0e92-4313-a8ea-f046a4f37527",
+            "responseIds": [
+              "ee745a23-0e92-4313-a8ea-f046a4f37527"
+            ],
+            "attempts": 1,
+            "repairReasons": [],
+            "usage": {
+              "promptTokens": 1104,
+              "completionTokens": 883,
+              "totalTokens": 1987
+            },
+            "durationMs": 5132,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        },
+        {
+          "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+          "version": 2,
+          "createdAt": "2026-10-21T04:49:23.811Z",
+          "updatedAt": "2026-10-21T04:49:27.739Z",
+          "input": {
+            "workflow": "rfq",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "请更简短，保留所有事实与报价条件。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": null
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Stackable Storage Box – 500-Unit RFQ Reply",
+                "highlights": "PP plastic, stackable, lid included, for dry household items",
+                "body": "Dear Sir or Madam,\n\nThank you for your interest in our Stackable Storage Box (Harbor Home, PP plastic, 30 × 20 × 15 cm). We are pleased to respond to your request for 500 units on FOB Ningbo terms; the quotation valid for 14 days is shown separately.\n\nPayment is proposed as 30% deposit and 70% before shipment, subject to confirmation. Production begins only after the deposit is received and the sample is approved. The indicated lead time should be treated as an estimate until we check sample stock, capacity and ship dates; we will confirm rather than assume availability.\n\nPlease confirm your desired quantity, whether you need a sample, and your packaging preferences.\n\nKind regards,\nSales Team",
+                "bullets": [
+                  "Confirm 500 units and intended use",
+                  "Confirm whether a sample is required",
+                  "Check sample stock and availability before commitment",
+                  "Share packaging and delivery preferences",
+                  "Approve sample before production begins"
+                ]
+              },
+              "de": {
+                "title": "Stapelbare Aufbewahrungsbox – Antwort auf Anfrage über 500 Stück",
+                "highlights": "PP-Kunststoff, stapelbar, mit Deckel, für trockene Haushaltsgegenstände",
+                "body": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihr Interesse an unserer stapelbaren Aufbewahrungsbox (Harbor Home, PP-Kunststoff, 30 × 20 × 15 cm). Gerne antworten wir auf Ihre Anfrage über 500 Stück zu FOB Ningbo; das Angebot mit 14 Tagen Gültigkeit wird separat ausgewiesen.\n\nAls Zahlungsbedingungen schlagen wir 30 % Anzahlung und 70 % vor Versand vor; die endgültigen Bedingungen bleiben vorbehalten. Die Produktion beginnt erst nach Eingang der Anzahlung und Freigabe des Musters. Die angegebene Lieferzeit gilt als Schätzung, bis wir Musterbestand, Kapazität und Versandtermine geprüft haben; wir bestätigen dies, statt eine Verfügbarkeit anzunehmen.\n\nBitte bestätigen Sie die gewünschte Menge, ob Sie ein Muster benötigen, sowie Ihre Verpackungswünsche.\n\nMit freundlichen Grüßen,\nVertriebsteam",
+                "bullets": [
+                  "Menge von 500 Stück und Verwendungszweck bestätigen",
+                  "Bedarf an einem Muster klären",
+                  "Musterbestand und Verfügbarkeit vor Zusage prüfen",
+                  "Verpackungs- und Lieferwünsche mitteilen",
+                  "Musterfreigabe vor Produktionsbeginn einholen"
+                ]
+              }
+            },
+            "summary": "按德国市场 RFQ 场景撰写更简短的英文与德文回复，保留 500 件、FOB Ningbo、14 天有效期、30%/70% 付款、付定金并样品批准后投产、交期仅为预估等事实；报价金额由系统单独呈现。产品 EU 责任人、制造商及安全警示信息缺失，无法确认全部合规。",
+            "missingInfo": [
+              "制造商名称及联系信息",
+              "欧盟责任人信息",
+              "产品识别信息及德语警示语",
+              "样品库存、产能与确切船期未经核实",
+              "买方包装与交付偏好"
+            ],
+            "nextActions": [
+              "向买方确认 500 件数量、用途及是否需要样品",
+              "核查样品库存、产能与船期后再承诺",
+              "补充制造商与欧盟责任人等 GPSR 字段",
+              "待样品批准并收到定金后安排生产"
+            ]
+          },
+          "quote": {
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "totalCents": 160000,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "validDays": 14,
+            "expiresAt": "2026-11-04",
+            "leadDays": 25,
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "excludes": "Freight, insurance, duties and taxes excluded. Production lead time starts after deposit and sample approval. Subject to written confirmation."
+          },
+          "knowledge": [
+            {
+              "id": "gpsr-19",
+              "category": "compliance",
+              "title": "欧盟 GPSR 远程销售信息初筛",
+              "markets": [
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "listing",
+                "compliance"
+              ],
+              "kind": "regulation",
+              "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+              "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2024-12-13",
+              "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+              "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "rfq-response",
+              "category": "platform",
+              "title": "Alibaba RFQ 回复场景",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq"
+              ],
+              "kind": "platform-guidance",
+              "source": "https://seller.alibaba.com/rfq?locale=en",
+              "publisher": "Alibaba.com Seller Central",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "围绕买方明确的规格、数量和时间提供清晰报价；先确认能够满足需求，再推进沟通。本文仅基于公开 RFQ 场景指引，不覆盖账户内所有发布规则。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "commercial-terms",
+              "category": "contract",
+              "title": "商家报价内控清单",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 演示商家内控政策",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / rfq"
+            }
+          ],
+          "validation": {
+            "status": "review-required",
+            "risks": [
+              {
+                "id": "gpsr-missing",
+                "severity": "high",
+                "category": "compliance",
+                "field": "product",
+                "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+                "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+                "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+                "ruleId": "gpsr-19"
+              },
+              {
+                "id": "quote-terms",
+                "severity": "info",
+                "category": "contract",
+                "field": "quote",
+                "excerpt": "",
+                "message": "报价仅含商品金额，运费、保险、税费另计",
+                "action": "确认指定地点、付款、样品与交期前提后再发送",
+                "ruleId": "commercial-terms"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 1,
+              "medium": 1,
+              "info": 1
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "2bf35e7b-24cb-4ccd-9591-99c5fd63355e",
+            "responseIds": [
+              "2bf35e7b-24cb-4ccd-9591-99c5fd63355e"
+            ],
+            "attempts": 1,
+            "repairReasons": [],
+            "usage": {
+              "promptTokens": 1782,
+              "completionTokens": 784,
+              "totalTokens": 2566
+            },
+            "durationMs": 3894,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        },
+        {
+          "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+          "version": 3,
+          "createdAt": "2026-10-21T04:49:23.811Z",
+          "updatedAt": "2026-10-21T04:49:31.703Z",
+          "input": {
+            "workflow": "rfq",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "请在上一版补充样品和后续跟进，不承诺具体寄出日期。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": null
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Stackable Storage Box – 500-Unit RFQ Reply",
+                "highlights": "PP plastic, stackable, lid included, for dry household items",
+                "body": "Dear Sir or Madam,\n\nThank you for your interest in our Stackable Storage Box (Harbor Home, PP plastic, 30 × 20 × 15 cm). We are pleased to respond to your request for 500 units on FOB Ningbo terms; the quotation valid for 14 days is shown separately.\n\nPayment is proposed as 30% deposit and 70% before shipment, subject to confirmation. Production begins only after the deposit is received and the sample is approved. The indicated lead time is an estimate; we will check sample stock, capacity and ship dates and confirm rather than assume availability. We cannot commit to a dispatch date for samples at this stage.\n\nPlease confirm your desired quantity, whether you need a sample, and your packaging preferences. We will follow up with the sample status and next steps after your reply.\n\nKind regards,\nSales Team",
+                "bullets": [
+                  "Confirm 500 units and intended use",
+                  "Confirm whether a sample is required",
+                  "Check sample stock and availability before commitment",
+                  "Share packaging and delivery preferences",
+                  "Approve sample before production begins"
+                ]
+              },
+              "de": {
+                "title": "Stapelbare Aufbewahrungsbox – Antwort auf Anfrage über 500 Stück",
+                "highlights": "PP-Kunststoff, stapelbar, mit Deckel, für trockene Haushaltsgegenstände",
+                "body": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihr Interesse an unserer stapelbaren Aufbewahrungsbox (Harbor Home, PP-Kunststoff, 30 × 20 × 15 cm). Gerne antworten wir auf Ihre Anfrage über 500 Stück zu FOB Ningbo; das Angebot mit 14 Tagen Gültigkeit wird separat ausgewiesen.\n\nAls Zahlungsbedingungen schlagen wir 30 % Anzahlung und 70 % vor Versand vor; die endgültigen Bedingungen bleiben vorbehalten. Die Produktion beginnt erst nach Eingang der Anzahlung und Freigabe des Musters. Die angegebene Lieferzeit ist eine Schätzung; wir prüfen Musterbestand, Kapazität und Versandtermine und bestätigen dies, statt eine Verfügbarkeit anzunehmen. Ein konkretes Versanddatum für Muster können wir derzeit nicht zusagen.\n\nBitte bestätigen Sie die gewünschte Menge, ob Sie ein Muster benötigen, sowie Ihre Verpackungswünsche. Nach Ihrer Rückmeldung informieren wir Sie zum Musterstatus und zu den nächsten Schritten.\n\nMit freundlichen Grüßen,\nVertriebsteam",
+                "bullets": [
+                  "Menge von 500 Stück und Verwendungszweck bestätigen",
+                  "Bedarf an einem Muster klären",
+                  "Musterbestand und Verfügbarkeit vor Zusage prüfen",
+                  "Verpackungs- und Lieferwünsche mitteilen",
+                  "Musterfreigabe vor Produktionsbeginn einholen"
+                ]
+              }
+            },
+            "summary": "基于上一版补充样品安排与后续跟进，并按要求不承诺具体寄出日期。报价条件（500件、FOB宁波、14天有效期、25天交期、付款条件）按结构化字段保留，金额由系统单独呈现。样品库存、产能与船期均未核实，仅表示将核查确认。",
+            "missingInfo": [
+              "样品库存与实际可寄出时间未核实",
+              "产能与确切船期未核实",
+              "付款条件仍待双方确认",
+              "包装与交付偏好尚未获得买方确认",
+              "产品制造商信息、欧盟责任人及安全警示信息缺失（GPSR相关字段不完整）"
+            ],
+            "nextActions": [
+              "向买方确认500件数量、用途及是否需要样品",
+              "内部核查样品库存、产能与预计船期后再回复买方",
+              "收集包装与交付偏好",
+              "收到样品需求后安排寄样评估并跟进",
+              "生产前取得订金并完成样品批准"
+            ]
+          },
+          "quote": {
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "totalCents": 160000,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "validDays": 14,
+            "expiresAt": "2026-11-04",
+            "leadDays": 25,
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "excludes": "Freight, insurance, duties and taxes excluded. Production lead time starts after deposit and sample approval. Subject to written confirmation."
+          },
+          "knowledge": [
+            {
+              "id": "gpsr-19",
+              "category": "compliance",
+              "title": "欧盟 GPSR 远程销售信息初筛",
+              "markets": [
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "listing",
+                "compliance"
+              ],
+              "kind": "regulation",
+              "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+              "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2024-12-13",
+              "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+              "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "rfq-response",
+              "category": "platform",
+              "title": "Alibaba RFQ 回复场景",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq"
+              ],
+              "kind": "platform-guidance",
+              "source": "https://seller.alibaba.com/rfq?locale=en",
+              "publisher": "Alibaba.com Seller Central",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "围绕买方明确的规格、数量和时间提供清晰报价；先确认能够满足需求，再推进沟通。本文仅基于公开 RFQ 场景指引，不覆盖账户内所有发布规则。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "commercial-terms",
+              "category": "contract",
+              "title": "商家报价内控清单",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 演示商家内控政策",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / rfq"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / rfq"
+            }
+          ],
+          "validation": {
+            "status": "review-required",
+            "risks": [
+              {
+                "id": "gpsr-missing",
+                "severity": "high",
+                "category": "compliance",
+                "field": "product",
+                "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+                "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+                "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+                "ruleId": "gpsr-19"
+              },
+              {
+                "id": "quote-terms",
+                "severity": "info",
+                "category": "contract",
+                "field": "quote",
+                "excerpt": "",
+                "message": "报价仅含商品金额，运费、保险、税费另计",
+                "action": "确认指定地点、付款、样品与交期前提后再发送",
+                "ruleId": "commercial-terms"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 1,
+              "medium": 1,
+              "info": 1
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "eaa6c888-5e63-4889-99ab-a9b1aff4b9cc",
+            "responseIds": [
+              "eaa6c888-5e63-4889-99ab-a9b1aff4b9cc"
+            ],
+            "attempts": 1,
+            "repairReasons": [],
+            "usage": {
+              "promptTokens": 2411,
+              "completionTokens": 863,
+              "totalTokens": 3274
+            },
+            "durationMs": 3955,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "exportType": "review-required-draft",
+      "run": {
+        "id": "b6bf8491-46ae-488f-ad7d-ea2bdb324857",
+        "version": 1,
+        "createdAt": "2026-10-21T04:49:38.282Z",
+        "updatedAt": "2026-10-21T04:49:38.282Z",
+        "input": {
+          "workflow": "listing",
+          "market": "DE",
+          "mode": "live",
+          "productId": "HF-BOX-01",
+          "prompt": "请为同一商品生成本地化英德双语 Amazon Listing，只使用商品事实。",
+          "quantity": 500,
+          "unitPriceCents": 320,
+          "validDays": 14,
+          "leadDays": 25,
+          "currency": "USD",
+          "incoterm": "FOB",
+          "place": "Ningbo",
+          "payment": "30% deposit, 70% before shipment; subject to confirmation",
+          "sourceRunId": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d"
+        },
+        "product": {
+          "id": "HF-BOX-01",
+          "name": "叠放式桌面收纳盒",
+          "brand": "Harbor Home",
+          "category": "家居收纳",
+          "nameEn": "Stackable Storage Box",
+          "nameDe": "Stapelbare Aufbewahrungsbox",
+          "materialEn": "PP plastic",
+          "materialDe": "PP-Kunststoff",
+          "sizeCm": [
+            30,
+            20,
+            15
+          ],
+          "featuresEn": [
+            "Stackable design for shelf organization",
+            "Lid included",
+            "For dry household items"
+          ],
+          "featuresDe": [
+            "Stapelbares Design für ein geordnetes Regal",
+            "Mit Deckel",
+            "Für trockene Haushaltsgegenstände"
+          ],
+          "moq": 300,
+          "unitPriceCents": 320,
+          "leadDays": 25,
+          "currency": "USD",
+          "manufacturer": "",
+          "manufacturerContact": "",
+          "euResponsiblePerson": "",
+          "safetyInfoDe": "",
+          "evidence": [],
+          "synthetic": true
+        },
+        "output": {
+          "content": {
+            "en": {
+              "title": "Harbor Home Stackable Storage Box, PP, 30x20x15 cm",
+              "highlights": "Stackable for tidy shelves; lid included; for dry household items; 30x20x15 cm",
+              "body": "The Harbor Home Stackable Storage Box is a compact organizer made of PP plastic for dry household items. Its stackable design helps keep shelves and surfaces organized. A lid is included to cover the contents. The box measures approximately 11.8 x 7.9 x 5.9 inches (30 x 20 x 15 cm).",
+              "bullets": [
+                "Stackable design supports organized shelf storage",
+                "Lid included for covering stored contents",
+                "Intended for dry household items",
+                "Compact dimensions of about 11.8 x 7.9 x 5.9 inches"
+              ]
+            },
+            "de": {
+              "title": "Harbor Home Stapelbox, PP-Kunststoff, 30x20x15 cm",
+              "highlights": "Stapelbar für Ordnung im Regal; mit Deckel; für trockene Haushaltswaren; 30x20x15 cm",
+              "body": "Die stapelbare Aufbewahrungsbox von Harbor Home ist ein kompakter Organizer aus PP-Kunststoff für trockene Haushaltsgegenstände. Das stapelbare Design unterstützt eine geordnete Aufbewahrung in Regalen und auf Flächen. Ein Deckel zum Abdecken des Inhalts ist enthalten. Die Box misst etwa 30 x 20 x 15 cm.",
+              "bullets": [
+                "Stapelbares Design für eine geordnete Regalaufbewahrung",
+                "Deckel zum Abdecken des Inhalts enthalten",
+                "Geeignet für trockene Haushaltsgegenstände",
+                "Kompakte Maße von etwa 30 x 20 x 15 cm"
+              ]
+            }
+          },
+          "summary": "按结构化商品字段修订英德双语 Amazon Listing：标题缩至 60 字符内，Item Highlights 缩至 110 字符内，德文高亮已满足 125 字符限制；未使用价格、数量、交期、付款等商务字段，未作认证或安全声明。",
+          "missingInfo": [
+            "制造商名称及联系方式缺失",
+            "欧盟责任人信息缺失",
+            "德语安全警示信息缺失",
+            "商品证据材料为空，无法核实任何认证或用途声明",
+            "商品标记为合成样例，仅依据所给字段描述"
+          ],
+          "nextActions": [
+            "补充制造商与欧盟责任人信息后重新进行合规筛查",
+            "在 Seller Central 复核德国站标题与 Item Highlights 字符限制",
+            "补充可核实证据后再考虑任何认证或用途表述",
+            "由人工审核英德文案后发布 Listing"
+          ]
+        },
+        "quote": null,
+        "knowledge": [
+          {
+            "id": "amazon-title-2026",
+            "category": "platform",
+            "title": "Amazon 标题与 Item Highlights",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "listing"
+            ],
+            "kind": "platform",
+            "source": "https://sellercentral.amazon.com/seller-forums/discussions/t/ac660707-60c7-43e3-a3fd-420d7321cc4e",
+            "publisher": "Amazon Seller Forums 官方公告",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "effectiveAt": "2026-07-27",
+            "summary": "官方公告要求非媒体类标题不超过 75 个字符；Item Highlights 可补充最多 125 个字符。本站以此作保守基线，德国站和具体类目仍需在 Seller Central 复核。",
+            "limits": {
+              "title": 75,
+              "highlights": 125
+            },
+            "matchReason": "DE / listing"
+          },
+          {
+            "id": "gpsr-19",
+            "category": "compliance",
+            "title": "欧盟 GPSR 远程销售信息初筛",
+            "markets": [
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "listing",
+              "compliance"
+            ],
+            "kind": "regulation",
+            "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+            "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "effectiveAt": "2024-12-13",
+            "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+            "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+            "matchReason": "DE / listing"
+          },
+          {
+            "id": "localization",
+            "category": "culture",
+            "title": "英德商务表达与事实边界",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "editorial-policy",
+            "source": null,
+            "publisher": "HarborFlow 编辑规范",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+            "matchReason": "DE / listing"
+          },
+          {
+            "id": "claim-evidence",
+            "category": "compliance",
+            "title": "认证与产品用途证据门槛",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 产品事实守则",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+            "matchReason": "DE / listing"
+          }
+        ],
+        "validation": {
+          "status": "review-required",
+          "risks": [
+            {
+              "id": "gpsr-missing",
+              "severity": "high",
+              "category": "compliance",
+              "field": "product",
+              "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+              "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+              "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+              "ruleId": "gpsr-19"
+            },
+            {
+              "id": "evidence-missing",
+              "severity": "medium",
+              "category": "compliance",
+              "field": "product.evidence",
+              "excerpt": "",
+              "message": "商品台账未附核验材料",
+              "action": "添加来源资料；当前文本仅能作为草稿",
+              "ruleId": "claim-evidence"
+            }
+          ],
+          "counts": {
+            "high": 1,
+            "medium": 1,
+            "info": 0
+          },
+          "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+        },
+        "trace": {
+          "mode": "live",
+          "provider": "api.deepseek.com",
+          "model": "deepseek-flash",
+          "responseId": "5b07e90e-fbd1-4a54-a0ad-708cee11d2a2",
+          "responseIds": [
+            "f5de867b-2f9a-426e-af66-85d410dbdc8d",
+            "5b07e90e-fbd1-4a54-a0ad-708cee11d2a2"
+          ],
+          "attempts": 2,
+          "repairReasons": [
+            "highlight-de"
+          ],
+          "usage": {
+            "promptTokens": 2783,
+            "completionTokens": 1123,
+            "totalTokens": 3906
+          },
+          "durationMs": 6567,
+          "knowledgeVersion": "2026-10-21",
+          "stages": [
+            "理解与输入校验",
+            "商品事实与知识检索",
+            "双语生成",
+            "独立规则检查",
+            "版本持久化"
+          ],
+          "humanReviewRequired": true
+        }
+      },
+      "history": [
+        {
+          "id": "b6bf8491-46ae-488f-ad7d-ea2bdb324857",
+          "version": 1,
+          "createdAt": "2026-10-21T04:49:38.282Z",
+          "updatedAt": "2026-10-21T04:49:38.282Z",
+          "input": {
+            "workflow": "listing",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "请为同一商品生成本地化英德双语 Amazon Listing，只使用商品事实。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d"
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Harbor Home Stackable Storage Box, PP, 30x20x15 cm",
+                "highlights": "Stackable for tidy shelves; lid included; for dry household items; 30x20x15 cm",
+                "body": "The Harbor Home Stackable Storage Box is a compact organizer made of PP plastic for dry household items. Its stackable design helps keep shelves and surfaces organized. A lid is included to cover the contents. The box measures approximately 11.8 x 7.9 x 5.9 inches (30 x 20 x 15 cm).",
+                "bullets": [
+                  "Stackable design supports organized shelf storage",
+                  "Lid included for covering stored contents",
+                  "Intended for dry household items",
+                  "Compact dimensions of about 11.8 x 7.9 x 5.9 inches"
+                ]
+              },
+              "de": {
+                "title": "Harbor Home Stapelbox, PP-Kunststoff, 30x20x15 cm",
+                "highlights": "Stapelbar für Ordnung im Regal; mit Deckel; für trockene Haushaltswaren; 30x20x15 cm",
+                "body": "Die stapelbare Aufbewahrungsbox von Harbor Home ist ein kompakter Organizer aus PP-Kunststoff für trockene Haushaltsgegenstände. Das stapelbare Design unterstützt eine geordnete Aufbewahrung in Regalen und auf Flächen. Ein Deckel zum Abdecken des Inhalts ist enthalten. Die Box misst etwa 30 x 20 x 15 cm.",
+                "bullets": [
+                  "Stapelbares Design für eine geordnete Regalaufbewahrung",
+                  "Deckel zum Abdecken des Inhalts enthalten",
+                  "Geeignet für trockene Haushaltsgegenstände",
+                  "Kompakte Maße von etwa 30 x 20 x 15 cm"
+                ]
+              }
+            },
+            "summary": "按结构化商品字段修订英德双语 Amazon Listing：标题缩至 60 字符内，Item Highlights 缩至 110 字符内，德文高亮已满足 125 字符限制；未使用价格、数量、交期、付款等商务字段，未作认证或安全声明。",
+            "missingInfo": [
+              "制造商名称及联系方式缺失",
+              "欧盟责任人信息缺失",
+              "德语安全警示信息缺失",
+              "商品证据材料为空，无法核实任何认证或用途声明",
+              "商品标记为合成样例，仅依据所给字段描述"
+            ],
+            "nextActions": [
+              "补充制造商与欧盟责任人信息后重新进行合规筛查",
+              "在 Seller Central 复核德国站标题与 Item Highlights 字符限制",
+              "补充可核实证据后再考虑任何认证或用途表述",
+              "由人工审核英德文案后发布 Listing"
+            ]
+          },
+          "quote": null,
+          "knowledge": [
+            {
+              "id": "amazon-title-2026",
+              "category": "platform",
+              "title": "Amazon 标题与 Item Highlights",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "listing"
+              ],
+              "kind": "platform",
+              "source": "https://sellercentral.amazon.com/seller-forums/discussions/t/ac660707-60c7-43e3-a3fd-420d7321cc4e",
+              "publisher": "Amazon Seller Forums 官方公告",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2026-07-27",
+              "summary": "官方公告要求非媒体类标题不超过 75 个字符；Item Highlights 可补充最多 125 个字符。本站以此作保守基线，德国站和具体类目仍需在 Seller Central 复核。",
+              "limits": {
+                "title": 75,
+                "highlights": 125
+              },
+              "matchReason": "DE / listing"
+            },
+            {
+              "id": "gpsr-19",
+              "category": "compliance",
+              "title": "欧盟 GPSR 远程销售信息初筛",
+              "markets": [
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "listing",
+                "compliance"
+              ],
+              "kind": "regulation",
+              "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+              "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2024-12-13",
+              "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+              "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+              "matchReason": "DE / listing"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / listing"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / listing"
+            }
+          ],
+          "validation": {
+            "status": "review-required",
+            "risks": [
+              {
+                "id": "gpsr-missing",
+                "severity": "high",
+                "category": "compliance",
+                "field": "product",
+                "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+                "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+                "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+                "ruleId": "gpsr-19"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 1,
+              "medium": 1,
+              "info": 0
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "5b07e90e-fbd1-4a54-a0ad-708cee11d2a2",
+            "responseIds": [
+              "f5de867b-2f9a-426e-af66-85d410dbdc8d",
+              "5b07e90e-fbd1-4a54-a0ad-708cee11d2a2"
+            ],
+            "attempts": 2,
+            "repairReasons": [
+              "highlight-de"
+            ],
+            "usage": {
+              "promptTokens": 2783,
+              "completionTokens": 1123,
+              "totalTokens": 3906
+            },
+            "durationMs": 6567,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "exportType": "review-required-draft",
+      "run": {
+        "id": "e9330d78-1ee8-4e1d-947e-7898381ed4f1",
+        "version": 1,
+        "createdAt": "2026-10-21T04:49:42.806Z",
+        "updatedAt": "2026-10-21T04:49:42.806Z",
+        "input": {
+          "workflow": "support",
+          "market": "DE",
+          "mode": "live",
+          "productId": "HF-BOX-01",
+          "prompt": "买家收到12件破损商品，请安抚、索取必要凭证并交接人工。不承诺退款已执行。",
+          "quantity": 500,
+          "unitPriceCents": 320,
+          "validDays": 14,
+          "leadDays": 25,
+          "currency": "USD",
+          "incoterm": "FOB",
+          "place": "Ningbo",
+          "payment": "30% deposit, 70% before shipment; subject to confirmation",
+          "sourceRunId": null
+        },
+        "product": {
+          "id": "HF-BOX-01",
+          "name": "叠放式桌面收纳盒",
+          "brand": "Harbor Home",
+          "category": "家居收纳",
+          "nameEn": "Stackable Storage Box",
+          "nameDe": "Stapelbare Aufbewahrungsbox",
+          "materialEn": "PP plastic",
+          "materialDe": "PP-Kunststoff",
+          "sizeCm": [
+            30,
+            20,
+            15
+          ],
+          "featuresEn": [
+            "Stackable design for shelf organization",
+            "Lid included",
+            "For dry household items"
+          ],
+          "featuresDe": [
+            "Stapelbares Design für ein geordnetes Regal",
+            "Mit Deckel",
+            "Für trockene Haushaltsgegenstände"
+          ],
+          "moq": 300,
+          "unitPriceCents": 320,
+          "leadDays": 25,
+          "currency": "USD",
+          "manufacturer": "",
+          "manufacturerContact": "",
+          "euResponsiblePerson": "",
+          "safetyInfoDe": "",
+          "evidence": [],
+          "synthetic": true
+        },
+        "output": {
+          "content": {
+            "en": {
+              "title": "Support request for damaged items in your storage box order",
+              "highlights": "Please share your order number, the number of damaged boxes and clear photos so our team can review your case.",
+              "body": "Dear Customer,\n\nThank you for reaching out, and we are sorry to hear that part of your Stackable Storage Box order arrived damaged. We understand this is frustrating and would like to help you resolve it.\n\nTo review your case, please send us your order number, the number of damaged boxes and clear photos of the affected items and packaging. Please do not share payment card or ID details.\n\nOnce we receive this information, our team will review it and contact you about the possible next steps. We cannot confirm a refund, replacement or timeframe at this stage. Your case will be passed to our customer care team for individual review.\n\nKind regards,\nCustomer Care",
+              "bullets": [
+                "Send your order number and the number of damaged boxes",
+                "Attach clear photos of the damaged items and packaging",
+                "Keep the packaging for possible inspection",
+                "Wait for our team's review before taking further action"
+              ]
+            },
+            "de": {
+              "title": "Schadensmeldung zu Ihrer Bestellung der Stapelbaren Aufbewahrungsbox",
+              "highlights": "Bitte senden Sie uns Ihre Bestellnummer, die Anzahl der beschädigten Boxen und aussagekräftige Fotos, damit unser Team Ihren Fall prüfen kann.",
+              "body": "Sehr geehrte Kundin, sehr geehrter Kunde,\n\nvielen Dank für Ihre Nachricht. Es tut uns leid, dass ein Teil Ihrer Bestellung der Stapelbaren Aufbewahrungsbox beschädigt angekommen ist. Wir verstehen Ihren Ärger und möchten Ihnen bei der Klärung helfen.\n\nFür die Prüfung Ihres Falls benötigen wir Ihre Bestellnummer, die Anzahl der beschädigten Boxen sowie klare Fotos der betroffenen Artikel und der Verpackung. Bitte übermitteln Sie keine Zahlungskarten- oder Ausweisdaten.\n\nNach Eingang Ihrer Angaben prüft unser Team den Fall und meldet sich zu den möglichen nächsten Schritten bei Ihnen. Eine Erstattung, ein Ersatz oder ein Zeitrahmen kann derzeit nicht bestätigt werden. Ihr Fall wird zur individuellen Prüfung an unser Kundenservice-Team übergeben.\n\nMit freundlichen Grüßen\nServiceteam",
+              "bullets": [
+                "Bestellnummer und Anzahl der beschädigten Boxen angeben",
+                "Klare Fotos der beschädigten Artikel und der Verpackung beifügen",
+                "Verpackung für eine mögliche Prüfung aufbewahren",
+                "Rückmeldung unseres Teams zur Prüfung abwarten"
+              ]
+            }
+          },
+          "summary": "买家反馈收到12件叠放式桌面收纳盒破损。需要安抚买家，索取订单号、受损数量及必要照片，避免收集敏感支付与身份信息，并明确需转人工审核，不承诺已执行退款或补发。",
+          "missingInfo": [
+            "具体订单号未提供",
+            "12件破损的具体型号与受损情况不详",
+            "尚无照片或其他有效凭证",
+            "是否在收货后规定时限内提出未确认"
+          ],
+          "nextActions": [
+            "回复买家并请求订单号、受损数量及照片",
+            "核对订单与出货记录，确认500件订单与该反馈的关联",
+            "将照片与订单信息整理后转交客户服务团队人工审核",
+            "如涉及人身安全或争议退款，立即升级处理"
+          ]
+        },
+        "quote": null,
+        "knowledge": [
+          {
+            "id": "support-policy",
+            "category": "contract",
+            "title": "售后处理与人工升级",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "support"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 演示商家售后政策",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "先索取订单号、受损数量与必要照片；避免收集银行卡或身份证。退款、补发、运费补偿和交付日期均需人工确认，不承诺已执行。涉及人身安全、争议退款或威胁投诉应转人工。",
+            "matchReason": "DE / support"
+          },
+          {
+            "id": "localization",
+            "category": "culture",
+            "title": "英德商务表达与事实边界",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "editorial-policy",
+            "source": null,
+            "publisher": "HarborFlow 编辑规范",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+            "matchReason": "DE / support"
+          },
+          {
+            "id": "claim-evidence",
+            "category": "compliance",
+            "title": "认证与产品用途证据门槛",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 产品事实守则",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+            "matchReason": "DE / support"
+          }
+        ],
+        "validation": {
+          "status": "draft",
+          "risks": [
+            {
+              "id": "human-resolution",
+              "severity": "medium",
+              "category": "contract",
+              "field": "input.prompt",
+              "excerpt": "",
+              "message": "退款／补发尚需人工授权；系统没有订单或物流实时连接",
+              "action": "核对订单、凭证与售后政策后由人工决定",
+              "ruleId": "support-policy"
+            },
+            {
+              "id": "evidence-missing",
+              "severity": "medium",
+              "category": "compliance",
+              "field": "product.evidence",
+              "excerpt": "",
+              "message": "商品台账未附核验材料",
+              "action": "添加来源资料；当前文本仅能作为草稿",
+              "ruleId": "claim-evidence"
+            }
+          ],
+          "counts": {
+            "high": 0,
+            "medium": 2,
+            "info": 0
+          },
+          "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+        },
+        "trace": {
+          "mode": "live",
+          "provider": "api.deepseek.com",
+          "model": "deepseek-flash",
+          "responseId": "8fbbb750-a6dc-4263-b19b-cfc67bbd6923",
+          "responseIds": [
+            "8fbbb750-a6dc-4263-b19b-cfc67bbd6923"
+          ],
+          "attempts": 1,
+          "repairReasons": [],
+          "usage": {
+            "promptTokens": 978,
+            "completionTokens": 749,
+            "totalTokens": 1727
+          },
+          "durationMs": 4515,
+          "knowledgeVersion": "2026-10-21",
+          "stages": [
+            "理解与输入校验",
+            "商品事实与知识检索",
+            "双语生成",
+            "独立规则检查",
+            "版本持久化"
+          ],
+          "humanReviewRequired": true
+        }
+      },
+      "history": [
+        {
+          "id": "e9330d78-1ee8-4e1d-947e-7898381ed4f1",
+          "version": 1,
+          "createdAt": "2026-10-21T04:49:42.806Z",
+          "updatedAt": "2026-10-21T04:49:42.806Z",
+          "input": {
+            "workflow": "support",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "买家收到12件破损商品，请安抚、索取必要凭证并交接人工。不承诺退款已执行。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": null
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Support request for damaged items in your storage box order",
+                "highlights": "Please share your order number, the number of damaged boxes and clear photos so our team can review your case.",
+                "body": "Dear Customer,\n\nThank you for reaching out, and we are sorry to hear that part of your Stackable Storage Box order arrived damaged. We understand this is frustrating and would like to help you resolve it.\n\nTo review your case, please send us your order number, the number of damaged boxes and clear photos of the affected items and packaging. Please do not share payment card or ID details.\n\nOnce we receive this information, our team will review it and contact you about the possible next steps. We cannot confirm a refund, replacement or timeframe at this stage. Your case will be passed to our customer care team for individual review.\n\nKind regards,\nCustomer Care",
+                "bullets": [
+                  "Send your order number and the number of damaged boxes",
+                  "Attach clear photos of the damaged items and packaging",
+                  "Keep the packaging for possible inspection",
+                  "Wait for our team's review before taking further action"
+                ]
+              },
+              "de": {
+                "title": "Schadensmeldung zu Ihrer Bestellung der Stapelbaren Aufbewahrungsbox",
+                "highlights": "Bitte senden Sie uns Ihre Bestellnummer, die Anzahl der beschädigten Boxen und aussagekräftige Fotos, damit unser Team Ihren Fall prüfen kann.",
+                "body": "Sehr geehrte Kundin, sehr geehrter Kunde,\n\nvielen Dank für Ihre Nachricht. Es tut uns leid, dass ein Teil Ihrer Bestellung der Stapelbaren Aufbewahrungsbox beschädigt angekommen ist. Wir verstehen Ihren Ärger und möchten Ihnen bei der Klärung helfen.\n\nFür die Prüfung Ihres Falls benötigen wir Ihre Bestellnummer, die Anzahl der beschädigten Boxen sowie klare Fotos der betroffenen Artikel und der Verpackung. Bitte übermitteln Sie keine Zahlungskarten- oder Ausweisdaten.\n\nNach Eingang Ihrer Angaben prüft unser Team den Fall und meldet sich zu den möglichen nächsten Schritten bei Ihnen. Eine Erstattung, ein Ersatz oder ein Zeitrahmen kann derzeit nicht bestätigt werden. Ihr Fall wird zur individuellen Prüfung an unser Kundenservice-Team übergeben.\n\nMit freundlichen Grüßen\nServiceteam",
+                "bullets": [
+                  "Bestellnummer und Anzahl der beschädigten Boxen angeben",
+                  "Klare Fotos der beschädigten Artikel und der Verpackung beifügen",
+                  "Verpackung für eine mögliche Prüfung aufbewahren",
+                  "Rückmeldung unseres Teams zur Prüfung abwarten"
+                ]
+              }
+            },
+            "summary": "买家反馈收到12件叠放式桌面收纳盒破损。需要安抚买家，索取订单号、受损数量及必要照片，避免收集敏感支付与身份信息，并明确需转人工审核，不承诺已执行退款或补发。",
+            "missingInfo": [
+              "具体订单号未提供",
+              "12件破损的具体型号与受损情况不详",
+              "尚无照片或其他有效凭证",
+              "是否在收货后规定时限内提出未确认"
+            ],
+            "nextActions": [
+              "回复买家并请求订单号、受损数量及照片",
+              "核对订单与出货记录，确认500件订单与该反馈的关联",
+              "将照片与订单信息整理后转交客户服务团队人工审核",
+              "如涉及人身安全或争议退款，立即升级处理"
+            ]
+          },
+          "quote": null,
+          "knowledge": [
+            {
+              "id": "support-policy",
+              "category": "contract",
+              "title": "售后处理与人工升级",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "support"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 演示商家售后政策",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "先索取订单号、受损数量与必要照片；避免收集银行卡或身份证。退款、补发、运费补偿和交付日期均需人工确认，不承诺已执行。涉及人身安全、争议退款或威胁投诉应转人工。",
+              "matchReason": "DE / support"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / support"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / support"
+            }
+          ],
+          "validation": {
+            "status": "draft",
+            "risks": [
+              {
+                "id": "human-resolution",
+                "severity": "medium",
+                "category": "contract",
+                "field": "input.prompt",
+                "excerpt": "",
+                "message": "退款／补发尚需人工授权；系统没有订单或物流实时连接",
+                "action": "核对订单、凭证与售后政策后由人工决定",
+                "ruleId": "support-policy"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 0,
+              "medium": 2,
+              "info": 0
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "8fbbb750-a6dc-4263-b19b-cfc67bbd6923",
+            "responseIds": [
+              "8fbbb750-a6dc-4263-b19b-cfc67bbd6923"
+            ],
+            "attempts": 1,
+            "repairReasons": [],
+            "usage": {
+              "promptTokens": 978,
+              "completionTokens": 749,
+              "totalTokens": 1727
+            },
+            "durationMs": 4515,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "exportType": "review-required-draft",
+      "run": {
+        "id": "b048a579-7026-4fa3-b798-36250f279127",
+        "version": 1,
+        "createdAt": "2026-10-21T04:49:52.805Z",
+        "updatedAt": "2026-10-21T04:49:52.805Z",
+        "input": {
+          "workflow": "compliance",
+          "market": "DE",
+          "mode": "live",
+          "productId": "HF-BOX-01",
+          "prompt": "检查德国市场资料缺口，拟用的环保、食品级与绝对安全宣传都没有证据，请给出风险和修改方向。",
+          "quantity": 500,
+          "unitPriceCents": 320,
+          "validDays": 14,
+          "leadDays": 25,
+          "currency": "USD",
+          "incoterm": "FOB",
+          "place": "Ningbo",
+          "payment": "30% deposit, 70% before shipment; subject to confirmation",
+          "sourceRunId": null
+        },
+        "product": {
+          "id": "HF-BOX-01",
+          "name": "叠放式桌面收纳盒",
+          "brand": "Harbor Home",
+          "category": "家居收纳",
+          "nameEn": "Stackable Storage Box",
+          "nameDe": "Stapelbare Aufbewahrungsbox",
+          "materialEn": "PP plastic",
+          "materialDe": "PP-Kunststoff",
+          "sizeCm": [
+            30,
+            20,
+            15
+          ],
+          "featuresEn": [
+            "Stackable design for shelf organization",
+            "Lid included",
+            "For dry household items"
+          ],
+          "featuresDe": [
+            "Stapelbares Design für ein geordnetes Regal",
+            "Mit Deckel",
+            "Für trockene Haushaltsgegenstände"
+          ],
+          "moq": 300,
+          "unitPriceCents": 320,
+          "leadDays": 25,
+          "currency": "USD",
+          "manufacturer": "",
+          "manufacturerContact": "",
+          "euResponsiblePerson": "",
+          "safetyInfoDe": "",
+          "evidence": [],
+          "synthetic": true
+        },
+        "output": {
+          "content": {
+            "en": {
+              "title": "Compliance evidence review: Stackable Storage Box HF-BOX-01 (DE market)",
+              "highlights": "Field completeness screening only; claims on environmental, food-grade and absolute safety cannot be confirmed without evidence.",
+              "body": "This is an evidence review checklist, not an approval. The intended environmental, food-grade and absolute-safety claims are not supported by any supplied evidence and must not be published. For consumer-facing online information in Germany, the following data fields are currently missing: manufacturer and contact details, EU responsible person, product identification and understandable German safety warnings. Please provide valid evidence for each claim you wish to keep, or remove the claim. Until then, describe the product only by the supplied facts: PP plastic, stackable, lid included, for dry household items. Commercial terms are checked separately and remain subject to confirmation.",
+              "bullets": [
+                "List each intended claim and attach valid supporting evidence",
+                "Confirm manufacturer name and contact details",
+                "Name an EU responsible person with contact information",
+                "Add product identification and German safety warnings",
+                "Remove environmental, food-grade and absolute-safety wording until evidenced"
+              ]
+            },
+            "de": {
+              "title": "Compliance-Unterlagenprüfung: Stapelbare Aufbewahrungsbox HF-BOX-01 (Markt DE)",
+              "highlights": "Nur Prüfung der Feldvollständigkeit; Aussagen zu Umwelt, Lebensmitteleignung und absoluter Sicherheit sind ohne Nachweis nicht bestätigt.",
+              "body": "Dies ist eine Prüfliste für Nachweise, keine Freigabe. Die geplanten Aussagen zu Umweltfreundlichkeit, Lebensmitteleignung und absoluter Sicherheit sind durch keine vorliegenden Nachweise belegt und dürfen nicht veröffentlicht werden. Für verbrauchergerichtete Online-Informationen in Deutschland fehlen derzeit folgende Angaben: Hersteller und Kontaktdaten, EU-Verantwortlicher, Produktidentifikation sowie verständliche Sicherheitshinweise in deutscher Sprache. Bitte reichen Sie für jede gewünschte Aussage einen gültigen Nachweis ein oder streichen Sie die Aussage. Bis dahin beschreiben Sie das Produkt nur mit den vorliegenden Angaben: PP-Kunststoff, stapelbar, mit Deckel, für trockene Haushaltsgegenstände. Handelsbedingungen werden gesondert geprüft und bleiben vorbehaltlich Bestätigung.",
+              "bullets": [
+                "Jede geplante Aussage auflisten und gültigen Nachweis beifügen",
+                "Herstellername und Kontaktdaten bestätigen",
+                "EU-Verantwortlichen mit Kontaktdaten benennen",
+                "Produktidentifikation und deutsche Sicherheitshinweise ergänzen",
+                "Umwelt-, Lebensmitteleignungs- und Sicherheitsformulierungen bis zum Nachweis entfernen"
+              ]
+            }
+          },
+          "summary": "任务为德国市场合规协作：仅做资料缺口筛查与证据清单，不构成批准。产品为叠放式桌面收纳盒（PP塑料，30×20×15厘米，可叠放、带盖、用于干燥家居物品）。拟用的环保、食品级与绝对安全宣传均无证据，无法确认，须删除或补证。制造商及联系方式、欧盟责任人、产品识别信息、德语安全警示四个字段缺失。商业字段（500件、单价320美分、USD、FOB宁波、有效期14天、交期25天、30%定金/70%发货前付款）仅作检查项，付款表述仍需确认，正文未写入金额。",
+          "missingInfo": [
+            "环保宣传的有效证据缺失",
+            "食品级/食品接触适用性的证据缺失",
+            "绝对安全（如无毒）宣称的证据缺失",
+            "制造商名称及联系方式为空",
+            "欧盟责任人（EU Responsible Person）及联系方式为空",
+            "产品识别信息与德语安全警示（safetyInfoDe）为空"
+          ],
+          "nextActions": [
+            "逐条列出拟用宣传语，并为每条提供有效证据或删除该表述",
+            "补充制造商名称与联系方式",
+            "指定并补充欧盟责任人及联系方式",
+            "补充产品识别信息与德语安全警示文本",
+            "在证据齐全前，仅使用现有产品事实描述，不发布环保、食品级或安全保证类措辞",
+            "复核商业条款并由负责人人工确认后再对外发送"
+          ]
+        },
+        "quote": null,
+        "knowledge": [
+          {
+            "id": "gpsr-19",
+            "category": "compliance",
+            "title": "欧盟 GPSR 远程销售信息初筛",
+            "markets": [
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "listing",
+              "compliance"
+            ],
+            "kind": "regulation",
+            "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+            "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "effectiveAt": "2024-12-13",
+            "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+            "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+            "matchReason": "DE / compliance"
+          },
+          {
+            "id": "commercial-terms",
+            "category": "contract",
+            "title": "商家报价内控清单",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 演示商家内控政策",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+            "matchReason": "DE / compliance"
+          },
+          {
+            "id": "localization",
+            "category": "culture",
+            "title": "英德商务表达与事实边界",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "editorial-policy",
+            "source": null,
+            "publisher": "HarborFlow 编辑规范",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+            "matchReason": "DE / compliance"
+          },
+          {
+            "id": "claim-evidence",
+            "category": "compliance",
+            "title": "认证与产品用途证据门槛",
+            "markets": [
+              "US",
+              "DE"
+            ],
+            "workflows": [
+              "rfq",
+              "support",
+              "listing",
+              "compliance"
+            ],
+            "kind": "internal-policy",
+            "source": null,
+            "publisher": "HarborFlow 产品事实守则",
+            "reviewedAt": "2026-10-21",
+            "reviewDue": "2027-01-19",
+            "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+            "matchReason": "DE / compliance"
+          }
+        ],
+        "validation": {
+          "status": "review-required",
+          "risks": [
+            {
+              "id": "evidence-input.prompt",
+              "severity": "high",
+              "category": "compliance",
+              "field": "input.prompt",
+              "excerpt": "食品级",
+              "message": "检测到需证据支持的认证或安全声明",
+              "action": "人工核实适用性与证明文件；未证实前删除该声明",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "green-input.prompt",
+              "severity": "high",
+              "category": "compliance",
+              "field": "input.prompt",
+              "excerpt": "环保",
+              "message": "宽泛环保宣传缺少可核验证据",
+              "action": "改成具体材料事实，或提供可验证且限定范围的证据",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "absolute-input.prompt",
+              "severity": "high",
+              "category": "culture",
+              "field": "input.prompt",
+              "excerpt": "绝对安全",
+              "message": "绝对化表达可能误导客户",
+              "action": "使用可证实的具体特点，避免绝对承诺",
+              "ruleId": "localization"
+            },
+            {
+              "id": "evidence-content.en.highlights",
+              "severity": "high",
+              "category": "compliance",
+              "field": "content.en.highlights",
+              "excerpt": "food-grade",
+              "message": "检测到需证据支持的认证或安全声明",
+              "action": "人工核实适用性与证明文件；未证实前删除该声明",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "evidence-content.en.body",
+              "severity": "high",
+              "category": "compliance",
+              "field": "content.en.body",
+              "excerpt": "food-grade",
+              "message": "检测到需证据支持的认证或安全声明",
+              "action": "人工核实适用性与证明文件；未证实前删除该声明",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "evidence-content.en.bullets.4",
+              "severity": "high",
+              "category": "compliance",
+              "field": "content.en.bullets.4",
+              "excerpt": "food-grade",
+              "message": "检测到需证据支持的认证或安全声明",
+              "action": "人工核实适用性与证明文件；未证实前删除该声明",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "green-content.de.body",
+              "severity": "high",
+              "category": "compliance",
+              "field": "content.de.body",
+              "excerpt": "Umweltfreundlich",
+              "message": "宽泛环保宣传缺少可核验证据",
+              "action": "改成具体材料事实，或提供可验证且限定范围的证据",
+              "ruleId": "claim-evidence"
+            },
+            {
+              "id": "gpsr-missing",
+              "severity": "high",
+              "category": "compliance",
+              "field": "product",
+              "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+              "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+              "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+              "ruleId": "gpsr-19"
+            },
+            {
+              "id": "evidence-missing",
+              "severity": "medium",
+              "category": "compliance",
+              "field": "product.evidence",
+              "excerpt": "",
+              "message": "商品台账未附核验材料",
+              "action": "添加来源资料；当前文本仅能作为草稿",
+              "ruleId": "claim-evidence"
+            }
+          ],
+          "counts": {
+            "high": 8,
+            "medium": 1,
+            "info": 0
+          },
+          "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+        },
+        "trace": {
+          "mode": "live",
+          "provider": "api.deepseek.com",
+          "model": "deepseek-flash",
+          "responseId": "f3fae731-7631-465c-b975-fda6fb69e781",
+          "responseIds": [
+            "6eb741b1-6f01-4795-b574-0e90975e0efe",
+            "f3fae731-7631-465c-b975-fda6fb69e781"
+          ],
+          "attempts": 2,
+          "repairReasons": [],
+          "usage": {
+            "promptTokens": 2087,
+            "completionTokens": 1670,
+            "totalTokens": 3757
+          },
+          "durationMs": 9988,
+          "knowledgeVersion": "2026-10-21",
+          "stages": [
+            "理解与输入校验",
+            "商品事实与知识检索",
+            "双语生成",
+            "独立规则检查",
+            "版本持久化"
+          ],
+          "humanReviewRequired": true
+        }
+      },
+      "history": [
+        {
+          "id": "b048a579-7026-4fa3-b798-36250f279127",
+          "version": 1,
+          "createdAt": "2026-10-21T04:49:52.805Z",
+          "updatedAt": "2026-10-21T04:49:52.805Z",
+          "input": {
+            "workflow": "compliance",
+            "market": "DE",
+            "mode": "live",
+            "productId": "HF-BOX-01",
+            "prompt": "检查德国市场资料缺口，拟用的环保、食品级与绝对安全宣传都没有证据，请给出风险和修改方向。",
+            "quantity": 500,
+            "unitPriceCents": 320,
+            "validDays": 14,
+            "leadDays": 25,
+            "currency": "USD",
+            "incoterm": "FOB",
+            "place": "Ningbo",
+            "payment": "30% deposit, 70% before shipment; subject to confirmation",
+            "sourceRunId": null
+          },
+          "product": {
+            "id": "HF-BOX-01",
+            "name": "叠放式桌面收纳盒",
+            "brand": "Harbor Home",
+            "category": "家居收纳",
+            "nameEn": "Stackable Storage Box",
+            "nameDe": "Stapelbare Aufbewahrungsbox",
+            "materialEn": "PP plastic",
+            "materialDe": "PP-Kunststoff",
+            "sizeCm": [
+              30,
+              20,
+              15
+            ],
+            "featuresEn": [
+              "Stackable design for shelf organization",
+              "Lid included",
+              "For dry household items"
+            ],
+            "featuresDe": [
+              "Stapelbares Design für ein geordnetes Regal",
+              "Mit Deckel",
+              "Für trockene Haushaltsgegenstände"
+            ],
+            "moq": 300,
+            "unitPriceCents": 320,
+            "leadDays": 25,
+            "currency": "USD",
+            "manufacturer": "",
+            "manufacturerContact": "",
+            "euResponsiblePerson": "",
+            "safetyInfoDe": "",
+            "evidence": [],
+            "synthetic": true
+          },
+          "output": {
+            "content": {
+              "en": {
+                "title": "Compliance evidence review: Stackable Storage Box HF-BOX-01 (DE market)",
+                "highlights": "Field completeness screening only; claims on environmental, food-grade and absolute safety cannot be confirmed without evidence.",
+                "body": "This is an evidence review checklist, not an approval. The intended environmental, food-grade and absolute-safety claims are not supported by any supplied evidence and must not be published. For consumer-facing online information in Germany, the following data fields are currently missing: manufacturer and contact details, EU responsible person, product identification and understandable German safety warnings. Please provide valid evidence for each claim you wish to keep, or remove the claim. Until then, describe the product only by the supplied facts: PP plastic, stackable, lid included, for dry household items. Commercial terms are checked separately and remain subject to confirmation.",
+                "bullets": [
+                  "List each intended claim and attach valid supporting evidence",
+                  "Confirm manufacturer name and contact details",
+                  "Name an EU responsible person with contact information",
+                  "Add product identification and German safety warnings",
+                  "Remove environmental, food-grade and absolute-safety wording until evidenced"
+                ]
+              },
+              "de": {
+                "title": "Compliance-Unterlagenprüfung: Stapelbare Aufbewahrungsbox HF-BOX-01 (Markt DE)",
+                "highlights": "Nur Prüfung der Feldvollständigkeit; Aussagen zu Umwelt, Lebensmitteleignung und absoluter Sicherheit sind ohne Nachweis nicht bestätigt.",
+                "body": "Dies ist eine Prüfliste für Nachweise, keine Freigabe. Die geplanten Aussagen zu Umweltfreundlichkeit, Lebensmitteleignung und absoluter Sicherheit sind durch keine vorliegenden Nachweise belegt und dürfen nicht veröffentlicht werden. Für verbrauchergerichtete Online-Informationen in Deutschland fehlen derzeit folgende Angaben: Hersteller und Kontaktdaten, EU-Verantwortlicher, Produktidentifikation sowie verständliche Sicherheitshinweise in deutscher Sprache. Bitte reichen Sie für jede gewünschte Aussage einen gültigen Nachweis ein oder streichen Sie die Aussage. Bis dahin beschreiben Sie das Produkt nur mit den vorliegenden Angaben: PP-Kunststoff, stapelbar, mit Deckel, für trockene Haushaltsgegenstände. Handelsbedingungen werden gesondert geprüft und bleiben vorbehaltlich Bestätigung.",
+                "bullets": [
+                  "Jede geplante Aussage auflisten und gültigen Nachweis beifügen",
+                  "Herstellername und Kontaktdaten bestätigen",
+                  "EU-Verantwortlichen mit Kontaktdaten benennen",
+                  "Produktidentifikation und deutsche Sicherheitshinweise ergänzen",
+                  "Umwelt-, Lebensmitteleignungs- und Sicherheitsformulierungen bis zum Nachweis entfernen"
+                ]
+              }
+            },
+            "summary": "任务为德国市场合规协作：仅做资料缺口筛查与证据清单，不构成批准。产品为叠放式桌面收纳盒（PP塑料，30×20×15厘米，可叠放、带盖、用于干燥家居物品）。拟用的环保、食品级与绝对安全宣传均无证据，无法确认，须删除或补证。制造商及联系方式、欧盟责任人、产品识别信息、德语安全警示四个字段缺失。商业字段（500件、单价320美分、USD、FOB宁波、有效期14天、交期25天、30%定金/70%发货前付款）仅作检查项，付款表述仍需确认，正文未写入金额。",
+            "missingInfo": [
+              "环保宣传的有效证据缺失",
+              "食品级/食品接触适用性的证据缺失",
+              "绝对安全（如无毒）宣称的证据缺失",
+              "制造商名称及联系方式为空",
+              "欧盟责任人（EU Responsible Person）及联系方式为空",
+              "产品识别信息与德语安全警示（safetyInfoDe）为空"
+            ],
+            "nextActions": [
+              "逐条列出拟用宣传语，并为每条提供有效证据或删除该表述",
+              "补充制造商名称与联系方式",
+              "指定并补充欧盟责任人及联系方式",
+              "补充产品识别信息与德语安全警示文本",
+              "在证据齐全前，仅使用现有产品事实描述，不发布环保、食品级或安全保证类措辞",
+              "复核商业条款并由负责人人工确认后再对外发送"
+            ]
+          },
+          "quote": null,
+          "knowledge": [
+            {
+              "id": "gpsr-19",
+              "category": "compliance",
+              "title": "欧盟 GPSR 远程销售信息初筛",
+              "markets": [
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "listing",
+                "compliance"
+              ],
+              "kind": "regulation",
+              "source": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+              "publisher": "欧盟 · Regulation (EU) 2023/988, Article 19",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "effectiveAt": "2024-12-13",
+              "summary": "面向消费者的线上产品信息需要制造商及联系信息、适用的欧盟责任人、产品识别以及可理解语言的警示信息。此处仅筛查数据字段完整性，不代表产品满足全部安全义务。",
+              "verificationNote": "法条链接存在访问挑战；使用欧盟官方摘要与 2025/C/6233 官方指引交叉核验，不声称完整法律意见。",
+              "matchReason": "DE / compliance"
+            },
+            {
+              "id": "commercial-terms",
+              "category": "contract",
+              "title": "商家报价内控清单",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 演示商家内控政策",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "报价必须显示币种、数量、有效期、交期前提、付款约定、贸易术语及指定地点。当前仅支持 FOB／EXW，运费、税费与保险不计入商品小计。此为商家检查项，并非完整合同或 Incoterms 法律解释。",
+              "matchReason": "DE / compliance"
+            },
+            {
+              "id": "localization",
+              "category": "culture",
+              "title": "英德商务表达与事实边界",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "editorial-policy",
+              "source": null,
+              "publisher": "HarborFlow 编辑规范",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "英文简明并明确下一步；德文采用礼貌正式语气、德语数字格式与公制。避免刻板文化假设、绝对保证和未经证实的第一／最佳。单位按目标市场转换，币种不自行换算。",
+              "matchReason": "DE / compliance"
+            },
+            {
+              "id": "claim-evidence",
+              "category": "compliance",
+              "title": "认证与产品用途证据门槛",
+              "markets": [
+                "US",
+                "DE"
+              ],
+              "workflows": [
+                "rfq",
+                "support",
+                "listing",
+                "compliance"
+              ],
+              "kind": "internal-policy",
+              "source": null,
+              "publisher": "HarborFlow 产品事实守则",
+              "reviewedAt": "2026-10-21",
+              "reviewDue": "2027-01-19",
+              "summary": "未获有效证据不得声称 CE、FDA、食品级、无毒或儿童适用。首版家居样例不适用于食品接触、儿童或电气用品；出现相关用途必须转合规审核。",
+              "matchReason": "DE / compliance"
+            }
+          ],
+          "validation": {
+            "status": "review-required",
+            "risks": [
+              {
+                "id": "evidence-input.prompt",
+                "severity": "high",
+                "category": "compliance",
+                "field": "input.prompt",
+                "excerpt": "食品级",
+                "message": "检测到需证据支持的认证或安全声明",
+                "action": "人工核实适用性与证明文件；未证实前删除该声明",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "green-input.prompt",
+                "severity": "high",
+                "category": "compliance",
+                "field": "input.prompt",
+                "excerpt": "环保",
+                "message": "宽泛环保宣传缺少可核验证据",
+                "action": "改成具体材料事实，或提供可验证且限定范围的证据",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "absolute-input.prompt",
+                "severity": "high",
+                "category": "culture",
+                "field": "input.prompt",
+                "excerpt": "绝对安全",
+                "message": "绝对化表达可能误导客户",
+                "action": "使用可证实的具体特点，避免绝对承诺",
+                "ruleId": "localization"
+              },
+              {
+                "id": "evidence-content.en.highlights",
+                "severity": "high",
+                "category": "compliance",
+                "field": "content.en.highlights",
+                "excerpt": "food-grade",
+                "message": "检测到需证据支持的认证或安全声明",
+                "action": "人工核实适用性与证明文件；未证实前删除该声明",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "evidence-content.en.body",
+                "severity": "high",
+                "category": "compliance",
+                "field": "content.en.body",
+                "excerpt": "food-grade",
+                "message": "检测到需证据支持的认证或安全声明",
+                "action": "人工核实适用性与证明文件；未证实前删除该声明",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "evidence-content.en.bullets.4",
+                "severity": "high",
+                "category": "compliance",
+                "field": "content.en.bullets.4",
+                "excerpt": "food-grade",
+                "message": "检测到需证据支持的认证或安全声明",
+                "action": "人工核实适用性与证明文件；未证实前删除该声明",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "green-content.de.body",
+                "severity": "high",
+                "category": "compliance",
+                "field": "content.de.body",
+                "excerpt": "Umweltfreundlich",
+                "message": "宽泛环保宣传缺少可核验证据",
+                "action": "改成具体材料事实，或提供可验证且限定范围的证据",
+                "ruleId": "claim-evidence"
+              },
+              {
+                "id": "gpsr-missing",
+                "severity": "high",
+                "category": "compliance",
+                "field": "product",
+                "excerpt": "manufacturer, manufacturerContact, euResponsiblePerson, safetyInfoDe",
+                "message": "德国市场资料未完整：制造商／联系信息／欧盟责任人／德文安全信息",
+                "action": "由合规负责人补充并核实适用性；B2B 报价阶段作为后续零售准备项",
+                "ruleId": "gpsr-19"
+              },
+              {
+                "id": "evidence-missing",
+                "severity": "medium",
+                "category": "compliance",
+                "field": "product.evidence",
+                "excerpt": "",
+                "message": "商品台账未附核验材料",
+                "action": "添加来源资料；当前文本仅能作为草稿",
+                "ruleId": "claim-evidence"
+              }
+            ],
+            "counts": {
+              "high": 8,
+              "medium": 1,
+              "info": 0
+            },
+            "disclaimer": "自动初筛覆盖已配置规则，不能证明全面合规。所有对外内容都需要人工复核。"
+          },
+          "trace": {
+            "mode": "live",
+            "provider": "api.deepseek.com",
+            "model": "deepseek-flash",
+            "responseId": "f3fae731-7631-465c-b975-fda6fb69e781",
+            "responseIds": [
+              "6eb741b1-6f01-4795-b574-0e90975e0efe",
+              "f3fae731-7631-465c-b975-fda6fb69e781"
+            ],
+            "attempts": 2,
+            "repairReasons": [],
+            "usage": {
+              "promptTokens": 2087,
+              "completionTokens": 1670,
+              "totalTokens": 3757
+            },
+            "durationMs": 9988,
+            "knowledgeVersion": "2026-10-21",
+            "stages": [
+              "理解与输入校验",
+              "商品事实与知识检索",
+              "双语生成",
+              "独立规则检查",
+              "版本持久化"
+            ],
+            "humanReviewRequired": true
+          }
+        }
+      ]
+    }
+  ]
+}

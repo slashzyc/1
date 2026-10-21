@@ -1,0 +1,20 @@
+name: Verify HarborFlow
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/check.mjs
+      - run: node --test --test-concurrency=1 tests/*.test.js
+      - run: node scripts/build.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: harborflow-engineering-package
+          path: dist/harborflow
+          include-hidden-files: true

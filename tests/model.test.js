@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { generateLive } from '../src/model.js';
+import { demoGenerate,validateInput,retrieve } from '../src/domain.js';
+const p=JSON.parse(readFileSync(new URL('../fixtures/products.json',import.meta.url)))[0];
+const i=validateInput({workflow:'listing',market:'US',mode:'live',prompt:'按事实生成'},p),rules=retrieve(i);
+const config={apiKey:'test-key',baseUrl:'https://api.deepseek.com',model:'test-model',timeoutMs:3000};
+const response=(o=demoGenerate(i,p))=>new Response(JSON.stringify({id:'fixture-response',choices:[{finish_reason:'stop',message:{content:JSON.stringify(o)}}],usage:{total_tokens:30}}),{status:200});
+test('real provider adapter sends JSON contract and isolates untrusted data',async()=>{let payload;const r=await generateLive(i,p,rules,[],config,async(url,opts)=>{assert.equal(url.hostname,'api.deepseek.com');assert.equal(opts.redirect,'error');payload=JSON.parse(opts.body);assert.equal(opts.headers.Authorization,'Bearer test-key');return response();});assert.equal(r.meta.responseId,'fixture-response');assert.equal(payload.response_format.type,'json_object');assert(payload.messages[0].content.includes('UNTRUSTED DATA'));assert.equal(payload.thinking.type,'disabled');});
+test('transient 429 retries once and records attempts',async()=>{let n=0;const r=await generateLive(i,p,rules,[],config,async()=>++n===1?new Response('',{status:429}):response());assert.equal(n,2);assert.equal(r.meta.attempts,2);});
+test('authentication failure does not fall back or expose upstream details',async()=>{await assert.rejects(()=>generateLive(i,p,rules,[],config,async()=>new Response('secret provider body',{status:401})),e=>e.code==='MODEL_UPSTREAM'&&!e.message.includes('secret'));});
+test('missing credentials fail explicitly',async()=>{await assert.rejects(()=>generateLive(i,p,rules,[],{...config,apiKey:''}),{code:'MODEL_NOT_CONFIGURED'});});
+test('truncated or malformed model output is never persisted as success',async()=>{await assert.rejects(()=>generateLive(i,p,rules,[],config,async()=>new Response(JSON.stringify({choices:[{finish_reason:'length',message:{content:'{}'}}]}))),{code:'MODEL_INCOMPLETE'});await assert.rejects(()=>generateLive(i,p,rules,[],config,async()=>response({bad:true})),{code:'MODEL_SCHEMA'});});
+test('timeout becomes actionable error',async()=>{await assert.rejects(()=>generateLive(i,p,rules,[],config,async()=>{throw new DOMException('timeout','TimeoutError');}),{code:'MODEL_TIMEOUT'});});
+test('HTTP endpoints are rejected for credentials',async()=>{await assert.rejects(()=>generateLive(i,p,rules,[],{...config,baseUrl:'http://evil.example'}),{code:'MODEL_CONFIG'});});
+test('platform length violations trigger at most one bounded content repair',async()=>{let n=0;const bad=demoGenerate(i,p);bad.content.de.title='x'.repeat(80);const r=await generateLive(i,p,rules,[],config,async()=>++n===1?response(bad):response());assert.equal(r.meta.attempts,2);assert(r.meta.repairReasons.includes('title-de'));assert(r.output.content.de.title.length<=75);});

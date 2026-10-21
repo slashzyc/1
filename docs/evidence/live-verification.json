@@ -1,0 +1,117 @@
+{
+  "verifiedAt": "2026-10-21T04:49:52.848Z",
+  "mode": "live",
+  "status": "passed",
+  "steps": [
+    {
+      "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+      "version": 1,
+      "workflow": "rfq",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "ee745a23-0e92-4313-a8ea-f046a4f37527",
+      "durationMs": 5132,
+      "attempts": 1,
+      "usage": {
+        "promptTokens": 1104,
+        "completionTokens": 883,
+        "totalTokens": 1987
+      },
+      "highRisks": 1,
+      "enTitle": "Stackable Storage Box – Quote for 500 Units",
+      "deTitle": "Stapelbare Aufbewahrungsbox – Angebot für 500 Stück"
+    },
+    {
+      "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+      "version": 2,
+      "workflow": "rfq",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "2bf35e7b-24cb-4ccd-9591-99c5fd63355e",
+      "durationMs": 3894,
+      "attempts": 1,
+      "usage": {
+        "promptTokens": 1782,
+        "completionTokens": 784,
+        "totalTokens": 2566
+      },
+      "highRisks": 1,
+      "enTitle": "Stackable Storage Box – 500-Unit RFQ Reply",
+      "deTitle": "Stapelbare Aufbewahrungsbox – Antwort auf Anfrage über 500 Stück"
+    },
+    {
+      "id": "e38f0c6d-2709-4500-b7cb-c2f9b0000d0d",
+      "version": 3,
+      "workflow": "rfq",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "eaa6c888-5e63-4889-99ab-a9b1aff4b9cc",
+      "durationMs": 3955,
+      "attempts": 1,
+      "usage": {
+        "promptTokens": 2411,
+        "completionTokens": 863,
+        "totalTokens": 3274
+      },
+      "highRisks": 1,
+      "enTitle": "Stackable Storage Box – 500-Unit RFQ Reply",
+      "deTitle": "Stapelbare Aufbewahrungsbox – Antwort auf Anfrage über 500 Stück"
+    },
+    {
+      "id": "b6bf8491-46ae-488f-ad7d-ea2bdb324857",
+      "version": 1,
+      "workflow": "listing",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "5b07e90e-fbd1-4a54-a0ad-708cee11d2a2",
+      "durationMs": 6567,
+      "attempts": 2,
+      "usage": {
+        "promptTokens": 2783,
+        "completionTokens": 1123,
+        "totalTokens": 3906
+      },
+      "highRisks": 1,
+      "enTitle": "Harbor Home Stackable Storage Box, PP, 30x20x15 cm",
+      "deTitle": "Harbor Home Stapelbox, PP-Kunststoff, 30x20x15 cm"
+    },
+    {
+      "id": "e9330d78-1ee8-4e1d-947e-7898381ed4f1",
+      "version": 1,
+      "workflow": "support",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "8fbbb750-a6dc-4263-b19b-cfc67bbd6923",
+      "durationMs": 4515,
+      "attempts": 1,
+      "usage": {
+        "promptTokens": 978,
+        "completionTokens": 749,
+        "totalTokens": 1727
+      },
+      "highRisks": 0,
+      "enTitle": "Support request for damaged items in your storage box order",
+      "deTitle": "Schadensmeldung zu Ihrer Bestellung der Stapelbaren Aufbewahrungsbox"
+    },
+    {
+      "id": "b048a579-7026-4fa3-b798-36250f279127",
+      "version": 1,
+      "workflow": "compliance",
+      "mode": "live",
+      "model": "deepseek-flash",
+      "responseId": "f3fae731-7631-465c-b975-fda6fb69e781",
+      "durationMs": 9988,
+      "attempts": 2,
+      "usage": {
+        "promptTokens": 2087,
+        "completionTokens": 1670,
+        "totalTokens": 3757
+      },
+      "highRisks": 8,
+      "enTitle": "Compliance evidence review: Stackable Storage Box HF-BOX-01 (DE market)",
+      "deTitle": "Compliance-Unterlagenprüfung: Stapelbare Aufbewahrungsbox HF-BOX-01 (Markt DE)"
+    }
+  ],
+  "handoffCreated": true,
+  "note": "Synthetic business inputs; live means external model response received. No credentials included."
+}

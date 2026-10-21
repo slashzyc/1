@@ -1,0 +1,15 @@
+{
+  "name": "harborflow", "version": "1.0.0", "private": true, "type": "module",
+  "description": "出海智台 · 多业务 AI 客服与人工协作工作台",
+  "engines": { "node": ">=24.0.0 <25" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "demo": "node scripts/demo.mjs",
+    "verify:live": "node scripts/demo.mjs --live"
+  },
+  "license": "UNLICENSED"
+}
